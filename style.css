@@ -17,11 +17,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 60px;
+    padding: 0px *0px;
     position: sticky;
     top: 0%;
     z-index: 100;
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid #f05518;
 }
 
 .nav-container > .logo {
@@ -74,7 +74,7 @@ ul > li > a {
 }
 
 ul > li > a > .fa-solid {
-    color: orangered;
+    color: #f05518;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,6 +105,7 @@ ul > li > a > h2 {
 @media screen and (max-width:650px) {
     .nav-container {
         padding: 0px;
+        border: none;
     }
 
     .nav-container > .logo {
@@ -360,7 +361,7 @@ section {
     text-align: center;
     font-size: 1.5rem;
     padding: 6px 0px;
-    background-color: orange;
+    background-color: #f05518;
     color: white;
 }
 
@@ -368,7 +369,7 @@ section {
     line-height: 2rem;
     font-size: 1.3rem;
     list-style-type: circle;
-    color: orange;
+    color: #f05518;
 }
 
 .trend > a {
@@ -511,12 +512,12 @@ img {
 
 .horm > h2 {
     font-size: 3rem;
-    color: orange;
+    color: #f05518;
 }
 
 .horm > p {
     font-size: 2rem;
-    color: orange;
+    color: #f05518;
 }
 
 @media screen and (max-width:650px) {
@@ -581,7 +582,7 @@ img {
 
 .box > h3 {
     position: absolute;
-    color: orange;
+    color: #f05518;
     background-color: rgba(92, 76, 76, 0.34);
     padding: 6px;
     border-radius: 5px;
@@ -604,10 +605,11 @@ img {
         width: 100%;
         height: fit-content;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+        padding: 6px;
     }
     .box > h3 {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         display: block;
     }
 }
@@ -622,10 +624,10 @@ img {
         width: 100%;
         height: fit-content;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
     }
     .box > h3 {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
         display: block;
     }
 }
@@ -662,19 +664,20 @@ img {
 
 .HLF > h3 {
     font-size: 3rem;
-    color: orange;
+    color: #f05518;
 }
 
 .HLF > p {
     font-size: 2rem;
-    color: orange;
+    color: #f05518;
 }
 
 @media screen and (max-width:650px) {
     .HLF {
         width: 100%;
         height: fit-content;
-        padding: 0px;
+        padding-top: 30px;
+        padding: 10px 0px;
         animation: none;
     }
     .HLF > h3 {
@@ -682,7 +685,7 @@ img {
         text-align: center;
     }
     .HLF > p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
     }
 }
@@ -691,7 +694,7 @@ img {
     .HLF {
         width: 100%;
         height: fit-content;
-        padding: 0px;
+        padding: 50px 0px;
         animation: none;
     }
     .HLF > h3 {
@@ -699,7 +702,7 @@ img {
         text-align: center;
     }
     .HLF > p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
     }
 }
@@ -791,7 +794,7 @@ img {
 .box5 > h3 {
     position: absolute;
     background-color: transparent;
-    color: orange;
+    color: #f05518;
     display: none;
     margin-bottom: 7px;
     padding: 5px;
@@ -808,7 +811,7 @@ img {
         flex-direction: column;
     }
     .box5 > h3 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         display: block;
         justify-content: center;
     }
@@ -821,7 +824,7 @@ img {
         flex-direction: column;
     }
     .box5 > h3 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         display: block;
         justify-content: center;
     }
@@ -858,7 +861,7 @@ img {
     padding: 10px;
     gap: 20px;
     font-size: 2rem;
-    color: orange;
+    color: #f05518;
 }
 
 .sign-1 > .fa-solid > h4 {
@@ -907,7 +910,7 @@ img {
     width: 10%;
     height: 50px;
     padding: 5px;
-    background-color: orange;
+    background-color: #f05518;
     color: white;
     cursor: pointer;
     font-size: 1.3rem;
@@ -932,12 +935,12 @@ img {
     }
     .sign > .sign-2 > form {
         width: 100%;
-        background-color: orange;
+        background-color: #f05518;
     }
     .sign-2 > form > button {
-        width: 50%;
+        width: 40%;
         font-size: 1.5rem;
-        box-shadow: 0px 0px 9px lightgray;
+        box-shadow: 0px 0px 2px lightgray;
     }
 }
 
@@ -959,13 +962,13 @@ img {
     }
     .sign > .sign-2 form {
         width: 100%;
-        background-color: orange;
+        background-color: #f05518;
     }
     .sign-2 > form > button {
-        width: 70%;
+        width: 40%;
         font-size: 1rem;
         padding:5px;
-        box-shadow: 0px 0px 0.9px lightgray;
+        box-shadow: 0px 0px 2px lightgray;
     }
 
 }
@@ -1032,19 +1035,19 @@ img {
 .loca > .fa-solid {
     gap: 20px;
     font-size: 3rem;
-    color: orange;
+    color: #f05518;
 }
 
 .call > .fa-solid {
     gap: 20px;
     font-size: 3rem;
-    color: orange;
+    color: #f05518;
 }
 
 .mail > .fa-solid {
     gap: 20px;
     font-size: 3rem;
-    color: orange;
+    color: #f05518;
 }
 .loca > h3 {
     font-size: 1.3rem;
